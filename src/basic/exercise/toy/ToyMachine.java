@@ -13,6 +13,7 @@ public class ToyMachine {
 	private int coin;
 	Product product;
 	
+	
 
 	public ToyMachine(String name, int coin) {
 		this.name = name;
@@ -36,7 +37,7 @@ public class ToyMachine {
 	
 	public static int gotCha() {
 		Random r = new Random();
-		int result = r.nextInt(2);
+		int result = r.nextInt(3);
 		return result;
 	}
 	
