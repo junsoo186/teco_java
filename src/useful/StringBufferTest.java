@@ -23,5 +23,8 @@ public class StringBufferTest {
 		
 		System.out.println(newstr); // toString 호출시 타입 -> String
 		
+		
+		
+		
 	} // end of main
 } // end of class 

@@ -11,7 +11,7 @@ public class StringTest2 {
 		str3 = str3 + ": def";
 		System.out.println(System.identityHashCode(str3));
 		
-		
+		int a = 1 ;
 		
 	} // end of main
 } // end of class
