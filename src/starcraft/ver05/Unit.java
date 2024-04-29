@@ -6,7 +6,7 @@ package starcraft.ver05;
  * default
  * private
  */
-public class Unit {
+public class Unit implements ttttt {
 
 	protected String name; 
 	protected int power; 
@@ -68,5 +68,10 @@ public class Unit {
 		System.out.println("이름 : " + this.name);
 		System.out.println("공격력 : " + this.power);
 		System.out.println("생명력 : " + this.hp);
+	}
+
+	public void mark() {
+		// TODO Auto-generated method stub
+		
 	}
 }

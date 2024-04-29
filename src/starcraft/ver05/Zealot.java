@@ -9,6 +9,9 @@ public class Zealot extends Unit {
 		super.hp = 80;
 	}
 
+	public void mark() {
+		super.mark();
+	}
 	
 
 }
