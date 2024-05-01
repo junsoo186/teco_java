@@ -35,8 +35,8 @@ public class BankAccount {
 
 	public  int withDraw(int money) {
 		// 현재 잔액 95000원
-		int currentMoney = getMoney();
 		synchronized(this) {
+			int currentMoney = getMoney();
 			
 			// ... 출금은 0.5 초 정 도 시간이 걸림
 			try {
